@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "opanchor",
+  "version": "1.0.0",
+  "name": "OpAnchor",
+  "description": "A utility mod for quick anchor clicking sequences. Press Z to execute: hotbar 9 right-click, hotbar 8 right-click, hotbar 9 right-click. 0 tick delay with max 1ms delay between actions.",
+  "authors": [
+    "OpAnchor Developer"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com",
+    "sources": "https://github.com"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.opanchor.OpAnchor"
+    ],
+    "client": [
+      "com.opanchor.client.OpAnchorClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
