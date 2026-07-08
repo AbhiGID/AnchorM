@@ -1,4 +1,4 @@
-# OpAnchor - Fabric Edition
+# OpAnchor - Fabric EditioN
 
 A lightweight Fabric mod for Minecraft 1.21.11 that automates anchor clicking sequences. Perfect for singleplayer anchor challenges and building.
 
