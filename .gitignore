@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+build/
+out/
+*.jar
+*.zip
+*.tar
+*.tar.gz
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.classpath
+*.project
+.settings/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+*.swp
+*.swo
+
+# Minecraft
+run/
+eclipse/
+mods/
+
+# Environment
+.env
+local.properties
+gradle-local.properties
+
+# Misc
+*.log
+*.out
+.cache/
+node_modules/

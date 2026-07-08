@@ -1,0 +1,49 @@
+# OpAnchor - Online Build Solutions
+
+If you don't have a computer or can't build locally, here are your options:
+
+## Option 1: Use GitHub Actions (FREE & AUTOMATIC) ⭐ RECOMMENDED
+
+1. Go to https://github.com/new
+2. Create a new repository (name: `OpAnchor`)
+3. Upload all files from the OpAnchorFabric folder
+4. GitHub will auto-build for you!
+5. Download the JAR from releases
+
+---
+
+## Option 2: Use Gitpod (Browser-Based Build) 🌐
+
+1. Go to https://gitpod.io/
+2. Login with GitHub (or create account)
+3. New workspace → paste your repo URL
+4. Run in terminal: `./gradlew build`
+5. Download JAR from `build/libs/opanchor-1.0.0.jar`
+
+---
+
+## Option 3: Ask Friend to Build
+
+Send someone the `OpAnchorFabric.tar.gz` file:
+- They extract it
+- They run: `gradlew.bat build` (Windows) or `./gradlew build` (Mac/Linux)
+- Takes 5 minutes max
+- They send you: `opanchor-1.0.0.jar`
+
+---
+
+## Option 4: Use Modrinth Launcher (EASIEST) ✅
+
+Don't need a JAR at all!
+1. Open Modrinth Launcher
+2. Create Fabric 1.21.11 instance
+3. Add Content → Search "OpAnchor"
+4. Install and play!
+
+---
+
+## Still Can't Build?
+
+Email or DM me the OpAnchorFabric.tar.gz file and I can create a pre-built JAR for you (but this environment has restrictions).
+
+**Bottom line:** Use Modrinth Launcher - it's the easiest! 🎮

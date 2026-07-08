@@ -1,0 +1,58 @@
+# OpAnchor - Quick Build Guide
+
+## For Windows Users
+
+1. **Extract OpAnchorFabric.tar.gz** (use 7-Zip, WinRAR, or Windows 11's built-in extractor)
+   - You'll get a folder called `OpAnchorFabric`
+
+2. **Open Command Prompt** in that folder
+   - Shift + Right-click → "Open PowerShell window here"
+
+3. **Run this command:**
+   ```
+   gradlew.bat build
+   ```
+
+4. **Wait 2-5 minutes** for it to download dependencies and compile
+
+5. **Find your mod:**
+   - Go to: `OpAnchorFabric\build\libs\`
+   - Copy: `opanchor-1.0.0.jar`
+
+6. **Install:**
+   - Paste into your `.minecraft\mods\` folder
+   - Launch with Fabric Loader 0.19.3+
+   - Press **Z** in-game!
+
+---
+
+## For Mac/Linux Users
+
+1. **Extract:**
+   ```
+   tar -xzf OpAnchorFabric.tar.gz
+   cd OpAnchorFabric
+   ```
+
+2. **Build:**
+   ```
+   chmod +x gradlew
+   ./gradlew build
+   ```
+
+3. **Find JAR:**
+   - Location: `build/libs/opanchor-1.0.0.jar`
+
+4. **Install in mods folder**
+   - Launch Minecraft with Fabric
+   - Press **Z**!
+
+---
+
+## Need Help?
+
+- Make sure Fabric Loader 0.19.3+ is installed
+- Make sure you have Java 21+ installed
+- Check the README.md in the folder for more info
+
+That's it! The mod will build automatically. 🚀
